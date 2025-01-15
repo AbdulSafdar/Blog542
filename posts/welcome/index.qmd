@@ -70,10 +70,12 @@ In the current job market, it is a lot more difficult to get hired this way as a
 
 # Summary Table
 
-Cost
-Time commitment
-Networking potential
-Curriculum
+| Learning Path     | Cost           | Time Commitment   | Networking Potential   |
+|-------------------|----------------|-------------------|------------------------|
+| **Master’s Program** | High           | 1-2 years on average         | High                   |
+| **Bootcamp**         | Medium-High    | 3-6 months on average        | Medium                 |
+| **Self-learn**       | Low/Free           | Flexible          | Low                    |
+
 
 
 # Job Search Tips and Tricks
