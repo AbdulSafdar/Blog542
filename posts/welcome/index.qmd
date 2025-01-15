@@ -1,7 +1,7 @@
 ---
-title: "Welcome To My Blog"
-author: "Tristan O'Malley"
-date: "2025-01-11"
+title: "Transitioning into a data scientist role as a data analyst"
+author: "Abdul Safdar"
+date: "2025-01-14"
 categories: [news]
 ---
 
