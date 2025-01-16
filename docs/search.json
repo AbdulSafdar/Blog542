@@ -7,60 +7,46 @@
     "text": "About this blog"
   },
   {
-    "objectID": "posts/welcome/index.html#dsa",
-    "href": "posts/welcome/index.html#dsa",
-    "title": "Transitioning into a data scientist role as a data analyst",
-    "section": "DSA",
-    "text": "DSA\nClassic data structures and algorithms, the bane of all second year computer science students. Not only is this important as a lot of companies seem to ask this topic on a lot of the interview process. It is just a overall good topic to learn. It is highly important because it can be applied to your future work because learning data structures and algorithm could be the difference between your code taking one minute to run versus it taking thirty minutes to run."
+    "objectID": "posts/welcome/index.html#data-structures-and-algorithms",
+    "href": "posts/welcome/index.html#data-structures-and-algorithms",
+    "title": "Transitioning into a data scientist role as a data analyst and where to pick up new skills",
+    "section": "Data Structures and Algorithms",
+    "text": "Data Structures and Algorithms\nClassic data structures and algorithms. It is highly important to learn because it can be applied to your future job because learning data structures and algorithm could be the difference between your code taking one minute to run versus it taking thirty minutes to run according to this blog."
   },
   {
     "objectID": "posts/welcome/index.html#ml",
     "href": "posts/welcome/index.html#ml",
-    "title": "Transitioning into a data scientist role as a data analyst",
+    "title": "Transitioning into a data scientist role as a data analyst and where to pick up new skills",
     "section": "ML",
-    "text": "ML"
+    "text": "ML\nLearning about different types of machine learning models, as well as the concepts behind these models is essential in landing a data scientist job. Websites like Kaggle often have practice data sets to work on as well as machine learning competitions. A solid understanding in these topics can also open up the door for machine learning engineering positions."
   },
   {
     "objectID": "posts/welcome/index.html#more-advanced-statistics",
     "href": "posts/welcome/index.html#more-advanced-statistics",
-    "title": "Transitioning into a data scientist role as a data analyst",
+    "title": "Transitioning into a data scientist role as a data analyst and where to pick up new skills",
     "section": "More Advanced Statistics",
-    "text": "More Advanced Statistics"
+    "text": "More Advanced Statistics\nProbability and statistics is an essential part of a data scientists toolbox."
   },
   {
     "objectID": "posts/welcome/index.html#data-visualization-in-python",
     "href": "posts/welcome/index.html#data-visualization-in-python",
-    "title": "Transitioning into a data scientist role as a data analyst",
+    "title": "Transitioning into a data scientist role as a data analyst and where to pick up new skills",
     "section": "Data Visualization in Python",
     "text": "Data Visualization in Python\nSince you already have experience in using power BI or Tableau, it is worth learning a new data visualization library for python. It is also a good idea to pick up more specialized skills in terms of data visualization such as knowing when to use specific types of visualizations and how to effectively communicate information using visualizations. Some of the common libraries in python include Altair, Seaborn and Plotly. The one you start to practice on does not really matter to be honest because a lot of the syntax for different libraries can be easily learnt and picked up on. Once you are in the job searching process it may be a good idea to look at job postings and see their specific requirements and to cater your learning towards those."
   },
   {
     "objectID": "posts/welcome/index.html#where-to-pick-up-data-science-skills",
     "href": "posts/welcome/index.html#where-to-pick-up-data-science-skills",
-    "title": "Transitioning into a data scientist role as a data analyst",
+    "title": "Transitioning into a data scientist role as a data analyst and where to pick up new skills",
     "section": "Where to Pick Up Data Science Skills",
-    "text": "Where to Pick Up Data Science Skills\nThe amount of new skills that you may need to pick up may seem overwhelming right now! With a lot of discipline and hard work, it is not too difficult to learn a lot of these skills. I will break it up into three different ways that you can pick up these required skills as well as go through the pros and cons for each one.\n\nMaster’s Program\nA masters in data science degree program may be one of the best ways to pick up a lot of skills needed to transition into the industry. There are a wide variety of universities/colleges which offer masters in data science degrees and each one has their own sort of program structure. It may seem overwhelming because of the amount of school there are, but a lot of your decision will likely come down to your own personal preferences, as well as your own personal research.\nOne of the benefits of attending a masters degree program is that it gives you access to alumni as well as classmates to leverage for networking opportunities. It is also nice to attend a masters degree program since a lot of job postings give preference to those with a masters degree in Data Science. This can be the difference between getting a rejection you landing that role as a data scientist. The will be elaborated on more in depth later on in the blog. A negative about attending a masters degree program may be that the tuition may really high as well as if it’s a full-time commitment, that is a loss of income. If your employer is willing to pay for it, it is advised to enroll. Another option is that some schools offer part-time programs which are done almost entirely online. This allows you to continue working at your current job.\n\n\nBootcamps\nA Boot Camp is also a good way to pick up data science skills as these are fast paced and often challenging experiences. Bootcamps allow you to pick up the necessary skills to be job ready in the field that you are interested in. A lot of them are full-time commitments as well, and can be completed as little as three months.\nAgain, a lot of the same issues that a masters degree program would encounter apply here as well. A lot of these programs are expensive and they require a significant time commitment. Another issue that these programs have when compared to a masters degree is that they may not go into a lot of theory and they may be more focussed on the coding aspects. This may be something to consider depending on your own learning style and preferences.\n\n\nSelf Learn / On The Job ()\n\nRoadmap\nA lot of free resources as well as low cost resources exist. DataCamp is a website that has interactive videos as well as interactive coding and the yearly fee is around $249 USD. Kaggle also exists for general data science and programming help.\nThese resources are good for individuals with limited financial backing who would like to explore the option of transitioning into a data scientist role.\n\n\nPros and Cons\nIn the current job market, it is a lot more difficult to get hired this way as a lot of postings require a minimum of a masters degree. In terms of networking, it would be a lot more difficult unless you have a solid network, already established at your current position."
-  },
-  {
-    "objectID": "posts/welcome/index.html#networking-tips",
-    "href": "posts/welcome/index.html#networking-tips",
-    "title": "Transitioning into a data scientist role as a data analyst",
-    "section": "Networking Tips",
-    "text": "Networking Tips"
-  },
-  {
-    "objectID": "posts/welcome/index.html#interview-process-tips",
-    "href": "posts/welcome/index.html#interview-process-tips",
-    "title": "Transitioning into a data scientist role as a data analyst",
-    "section": "Interview Process Tips",
-    "text": "Interview Process Tips"
+    "text": "Where to Pick Up Data Science Skills\nThe amount of new skills that you may need to pick up may seem overwhelming right now! With a lot of discipline and hard work, it is not too difficult to learn a lot of these skills. I will break it up into three different ways that you can pick up these required skills as well as go through the pros and cons for each one.\n\nMaster’s Program\nA masters in data science degree program may be one of the best ways to pick up a lot of skills needed to transition into the industry. There are a wide variety of universities/colleges which offer masters in data science degrees and each one has their own sort of program structure. It may seem overwhelming because of the amount of schools there are, but a lot of your decision will likely come down to your own personal preferences, as well as your own personal research. Some key considerations could be tuition fees, and method of course delivery.\nOne of the benefits of attending a masters degree program is that it gives you access to alumni as well as classmates to leverage for networking opportunities. It is also nice to attend a masters degree program since a lot of job postings give preference to those with a masters degree in Data Science. This can be the difference between getting a rejection you landing that role as a data scientist. The will be elaborated on more in depth later on in the blog. A negative about attending a masters degree program may be that the tuition may really high as well as if it’s a full-time commitment, that is a loss of income. If your employer is willing to pay for it, it is advised to enroll. Another option is that some schools offer part-time programs which are done almost entirely online. This allows you to continue working at your current job.\n\n\nBootcamps\nA Boot Camp is also a good way to pick up data science skills as these are fast paced and often challenging experiences. Bootcamps allow you to pick up the necessary skills to be job ready in the field that you are interested in. A lot of them are full-time commitments as well, and can be completed in as little as three months.\nAgain, a lot of the same issues that a masters degree program would encounter apply here as well. A lot of these programs are expensive and they require a significant time commitment. Another issue that these programs have when compared to a masters degree is that they may not go into a lot of theory and they may be more focussed on the coding aspects. This may be something to consider depending on your own learning style and preferences.\n\n\nSelf Learn / On The Job ()\n\nRoadmap\nA lot of free resources as well as low cost resources exist. DataCamp is a website that has interactive videos as well as interactive coding and the yearly fee is around $249 USD. Kaggle also exists for learning and practicing data science concepts.\nThese resources are good for individuals with limited financial backing who would like to explore the option of transitioning into a data scientist role.\n\n\nPros and Cons\nIn the current job market, it is a lot more difficult to get hired this way as a lot of postings require a minimum of a masters degree according to this DataCamp blog. In terms of networking, it would be a lot more difficult unless you have a solid network, already established at your current position."
   },
   {
     "objectID": "posts/welcome/index.html#conclusion",
     "href": "posts/welcome/index.html#conclusion",
-    "title": "Transitioning into a data scientist role as a data analyst",
+    "title": "Transitioning into a data scientist role as a data analyst and where to pick up new skills",
     "section": "Conclusion",
-    "text": "Conclusion\nIt can be a difficult and often daunting transition into a new field. Following what was laid out here is a good starting point for transitioning into a data scientist role for the future."
+    "text": "Conclusion\nIt can be a difficult and often daunting transition into a more specialized discipline. Following what was laid out here is a good starting point for learning new data science skills."
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -74,6 +60,6 @@
     "href": "index.html",
     "title": "How to transition from a data analyst role to data scientist.",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 14, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nTransitioning into a data scientist role as a data analyst\n\n\n\n\n\n\njobs\n\n\n\n\n\n\n\n\n\nJan 14, 2025\n\n\nAbdul Safdar\n\n\n\n\n\n\nNo matching items"
+    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 14, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nTransitioning into a data scientist role as a data analyst and where to pick up new skills\n\n\n\n\n\n\njobs\n\n\n\n\n\n\n\n\n\nJan 14, 2025\n\n\nAbdul Safdar\n\n\n\n\n\n\nNo matching items"
   }
 ]
