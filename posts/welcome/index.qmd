@@ -2,8 +2,7 @@
 title: "Transitioning into a data scientist role as a data analyst and where to pick up new skills"
 author: "Abdul Safdar"
 date: "2025-01-14"
-categories: [jobs]
-theme: darkly
+categories: [career development]
 ---
 # Transitioning Into a Data Scientist Role as a Data Analyst Where To Learn These Skills
 ## A guide to transition from a data analyst to data scientist. And 3 ways to fill in the gaps in your knowledge and how effective each is. 
@@ -34,6 +33,7 @@ Once you have a good foundational understanding of the prerequisites, you may be
 ## Data Structures and Algorithms
 
 Classic data structures and algorithms. It is highly important to learn because it can be applied to your future job because learning data structures and algorithm could be the difference between your code taking one minute to run versus it taking thirty minutes to run according to this [blog](https://www.geeksforgeeks.org/why-data-structures-and-algorithms-are-important-to-learn/). [This video](https://www.youtube.com/watch?v=pkYVOmU3MgA&t=2277s&pp=ygUNZHNhIGluIHB5dGhvbg%3D%3D) is an excellent place to learn the basics and you can apply what you learnt using LeetCode. 
+
 
 ## ML
 
@@ -106,17 +106,23 @@ It can be a difficult and often daunting transition into a more specialized disc
 Good luck on the journey!  
 
 # References
-https://www.coursera.org/articles/what-is-machine-learning-engineer
-https://www.bls.gov/ooh/math/data-scientists.htm
-https://data-storyteller.medium.com/how-to-pick-a-masters-program-for-a-career-in-data-science-def0263107ec
-[[1]] https://grad.ucalgary.ca/future-students/explore-programs/data-science-and-analytics-mdsa-course
-[[2]] https://masterdatascience.ubc.ca/admissions/prerequisites
-[[3]] https://www.torontomu.ca/graduate/datascience/admission/requirements/#!accordion-1499957505732-prerequisite-courses
-[[4]]https://roadmap.sh/ai-data-scientist
-https://www.datacamp.com/blog/how-to-become-a-data-scientist
-https://www.datacamp.com/blog/data-analyst-vs-data-scientist-a-comparative-guide
-https://www.reddit.com/r/datascience/
-https://www.amazon.ca/Ace-Data-Science-Interview-Questions/dp/0578973839/ref=sr_1_1?dib=eyJ2IjoiMSJ9.MHG7FrZsxVUx3I6fbbfvwTPK_9tK4N3Jl0HkOyqYyBJrER-gD_A334HTGwjk7g1YdHBVgj1lihPw9vc3u-ZkByxRlZQaZ6fIISt0u805CwKxamUm3SPZ1eohtrDYsx13DAhYx2p2RYt6qzNwpU6mCtOVEmTL6VVtaRslnJjLTOFkYbVp-5XskNaXJ45s4HMtJQUwXmYkw9L-G6zyH4qH4AOdwk2kTGp-8ya5pcGULjqc25IhhjGXClCwDRBuWDi7TiObYigIsD02iY8lPLVjMN7p0rvIQbs4YebzAakN4LFtV9c67jfHXobxRk9kn5CqFN29X9gps4zZt0GQ4ATCk79WTpx9xVilweqyXH5JPmD9sPpO_ZSyBAYFOZ0GocPEPlWoNs4u17WsvH-d6ZIOdXhubAawTOZSLaYAVXSa0-9BOisZP3yFM-dxC1jmpwVz.N4Flls0087o5_U4fZcpJ33MPJPaeeyiCT_wcNa08wbI&dib_tag=se&keywords=data+science+interview&qid=1737143395&sr=8-1
 
-[X] N. Name, Title (Year), Source
-[1] A. Pesah, A. Wehenkel and G. Louppe, Recurrent Machines for Likelihood-Free Inference (2018), NeurIPS 2018 Workshop on Meta-Learning
+[1] U.S. Bureau of Labor Statistics, Data Scientists (2023), https://www.bls.gov/ooh/math/data-scientists.htm
+
+[2] DataCamp, Data Analyst vs Data Scientist: A Comparative Guide (2024), https://www.datacamp.com/blog/data-analyst-vs-data-scientist-a-comparative-guide
+
+[3] Maggie @ DataStoryteller, How to Pick a Masters Program for a Career in Data Science (2023), https://data-storyteller.medium.com/how-to-pick-a-masters-program-for-a-career-in-data-science-def0263107ec
+
+[4] Roadmap.sh, AI/Data Scientist Roadmap (2025), https://roadmap.sh/ai-data-scientist
+
+[5] GeeksforGeeks, Why Data Structures and Algorithms Are Important to Learn (2024), https://www.geeksforgeeks.org/why-data-structures-and-algorithms-are-important-to-learn/
+
+[6] FreeCodeCamp, DSA in Python – Full Course (2021), https://www.youtube.com/watch?v=pkYVOmU3MgA&t=2277s&pp=ygUNZHNhIGluIHB5dGhvbg%3D%3D
+
+[7] Coursera, What Is a Machine Learning Engineer? (2024), https://www.coursera.org/articles/what-is-machine-learning-engineer
+
+[8] DataCamp, How to Become a Data Scientist (2024), https://www.datacamp.com/blog/how-to-become-a-data-scientist
+
+[9] Reddit, r/datascience (n.d.), https://www.reddit.com/r/datascience/
+
+[10] N. Singh and K. Huo, Ace the Data Science Interview: 201 Questions to Help You Land Your Dream Data Science Job (2021), https://www.amazon.ca/Ace-Data-Science-Interview-Questions/dp/0578973839
