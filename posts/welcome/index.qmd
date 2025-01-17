@@ -3,40 +3,41 @@ title: "Transitioning into a data scientist role as a data analyst and where to 
 author: "Abdul Safdar"
 date: "2025-01-14"
 categories: [jobs]
+theme: darkly
 ---
 # Transitioning Into a Data Scientist Role as a Data Analyst Where To Learn These Skills
+## A guide to transition from a data analyst to data scientist. And 3 ways to fill in the gaps in your knowledge and how effective each is. 
 
 # Introduction
 
-Data science has been growing at a rapid rate. According to a report from the U.S. Bureau of Labor Statistics which can be found [here](https://www.bls.gov/ooh/math/data-scientists.htm), employment of data scientists from 2023 to 2033 is expected to grow by 36% with close to 20000 new jobs projected to be required each year. The median pay is also around $108000 according to this report making data science a viable choice. As a data analyst, you may be wondering how the role of a data scientist differs from a data analyst and why you should care? The difference according to [this blog](https://www.datacamp.com/blog/data-analyst-vs-data-scientist-a-comparative-guide) is that a data scientists role are more hands on in terms of building predictive modeling tools, whereas a data analyst is more concerned with generating actionable insights from data. If these reasons are compelling enough for you to consider making the transition, keep reading on! This blog post will outline where you can learn the required skills to become a proficient data scientist. 
+Data science has been growing at a rapid rate. According to a report from the U.S. Bureau of Labor Statistics which can be found [here](https://www.bls.gov/ooh/math/data-scientists.htm), employment of data scientists from 2023 to 2033 is expected to grow by 36% with close to 20000 new jobs projected to be required yearly. The median pay is also around $108000 according to this report making data science a viable choice. As a data analyst, you may be wondering how the role of a data scientist differs from a data analyst and why you should care? The difference according to [this blog](https://www.datacamp.com/blog/data-analyst-vs-data-scientist-a-comparative-guide) is that data science roles are more hands on in terms of building predictive modeling tools, whereas data analysts are more concerned with generating actionable insights from data. If these reasons are compelling enough for you to consider making the transition, keep reading on! This blog post will outline where you can learn the required skills to become a proficient data scientist. 
 
 # Prerequisite Skills Required
 If you are working as a data analyst, I will assume that you know how to use a computer and Microsoft Office. You likely already have experience with relational databases, such as SQL as well as perhaps using dashboard preparation tools such as Power BI or Tableau. 
 
-Before we go any further, I think it is important to share a list of prerequisite knowledge that I think will make your life easier if you have a good undestanding of. 
+Before we go any further, I think it is important to share a list of prerequisites that from personal experience will make your transition easier.
 
-The first skill that I recommend is basic coding. A good start point would be learning how to use python to code. There are plenty of free resources for this. 
+The first skill that I recommend is basic coding. A good start point would be learning how to use Python to code. There are plenty of free resources for this. 
 
 Next, if you do not have any previous linear algebra experience as well as calculus, you want to really make sure you can understand matrices. This will be useful later on when you delve into learn machine learning.
 
-You want to know how basic statistics works, as according to [this blog](https://data-storyteller.medium.com/how-to-pick-a-masters-program-for-a-career-in-data-science-def0263107ec) the above courses will give you a foundational understanding of data science concepts later on. 
+You want to know how basic statistics works, as according to [this blog](https://data-storyteller.medium.com/how-to-pick-a-masters-program-for-a-career-in-data-science-def0263107ec) and my own experience, the above prerequisites will give you a foundational understanding of data science concepts. 
 
-If you want to self learn these subjects, [this road map](https://roadmap.sh/ai-data-scientist) contains a list of resources with the necessary prerequisites as well as related roadmaps if you are interested. A lot of the options presented here are low/no cost.
+If you want to self learn these subjects, [this road map](https://roadmap.sh/ai-data-scientist) contains a list of resources with the necessary prerequisites as well as related roadmaps if you are interested. The options presented are low/no cost.
 
 Also do note that if you plan on applying to a masters degree program, you will likely need a undergraduate degree completed and a combination of these courses to be admitted. This is something that you need to consider as an additional cost and time commitment as well. 
 
-
 # Skills Required
 
-Once you have a good understanding about some of the prerequisite topics that are required, you may be wondering how are they really applicable? Well, a lot of the additional skills that you need to pick up to become a data scientist would assume you have basic knowledge of these skills already. Let's delve into what additional skills may be required. 
+Once you have a good foundational understanding of the prerequisites, you may be wondering what was the point? Well, a lot of the additional skills that you need to pick up to become a data scientist would assume you have basic knowledge of these skills already. Let's delve into what additional skills may be required. 
 
 ## Data Structures and Algorithms
 
-Classic data structures and algorithms. It is highly important to learn because it can be applied to your future job because learning data structures and algorithm could be the difference between your code taking one minute to run versus it taking thirty minutes to run according to this [blog](https://www.geeksforgeeks.org/why-data-structures-and-algorithms-are-important-to-learn/). 
+Classic data structures and algorithms. It is highly important to learn because it can be applied to your future job because learning data structures and algorithm could be the difference between your code taking one minute to run versus it taking thirty minutes to run according to this [blog](https://www.geeksforgeeks.org/why-data-structures-and-algorithms-are-important-to-learn/). [This video](https://www.youtube.com/watch?v=pkYVOmU3MgA&t=2277s&pp=ygUNZHNhIGluIHB5dGhvbg%3D%3D) is an excellent place to learn the basics and you can apply what you learnt using LeetCode. 
 
 ## ML
 
-Learning about different types of machine learning models, as well as the concepts behind these models is essential in landing a data scientist job. Websites like Kaggle often have practice data sets to work on as well as machine learning competitions. A solid understanding in these topics can also open up the door for machine learning engineering positions. 
+Learning about different types of machine learning models, as well as the concepts behind these models is essential in landing a data scientist job. Websites like Kaggle often have practice data sets to work on as well as machine learning competitions. A solid understanding in these topics can also open up the door for machine learning engineering positions according to [this](https://www.coursera.org/articles/what-is-machine-learning-engineer) Coursera article. 
 
 ## More Advanced Statistics
 
@@ -44,18 +45,23 @@ Probability and statistics is an essential part of a data scientists toolbox.
 
 ## Data Visualization in Python
 
-Since you already have experience in using power BI or Tableau, it is worth learning a new data visualization library for python. It is also a good idea to pick up more specialized skills in terms of data visualization such as knowing when to use specific types of visualizations and how to effectively communicate information using visualizations. Some of the common libraries in python include Altair, Seaborn and Plotly. The one you start to practice on does not really matter to be honest because a lot of the syntax for different libraries can be easily learnt and picked up on. Once you are in the job searching process it may be a good idea to look at job postings and see their specific requirements and to cater your learning towards those. 
+Since you likely already have experience in using power BI or Tableau, it is worth learning a new data visualization library for Python. Some of the common libraries in Python include Altair, Seaborn and Plotly. The one you start to practice on does not really matter because a lot of the syntax for different libraries can be easily learnt once you have the basics down. 
 
 ## Where to Pick Up Data Science Skills
 
-The amount of new skills that you may need to pick up may seem overwhelming right now! With a lot of discipline and hard work, it is not too difficult to learn a lot of these skills. I will break it up into three different ways that you can pick up these required skills as well as go through the pros and cons for each one.
+The amount of new skills that you may need to pick up may seem overwhelming right now! With a lot of discipline and hard work, it is not too difficult to learn a lot of these skills. I will break it up into three different ways that you can pick up these required skills as well as go through the pros and cons for each one. A lot of what I talk about in this section comes from my own personal experience since I have followed some of these paths before.
 
 ### Master's Program
 
-A masters in data science degree program may be one of the best ways to pick up a lot of skills needed to transition into the industry. There are a wide variety of universities/colleges which offer masters in data science degrees and each one has their own sort of program structure. It may seem overwhelming because of the amount of schools there are, but a lot of your decision will likely come down to your own personal preferences, as well as your own personal research. Some key considerations could be tuition fees, and method of course delivery.  
+A masters in data science degree program may be one of the best ways to pick up a lot of skills needed to transition into the industry. There are a wide variety of universities/colleges which offer masters in data science degrees and each one has a unique program structure. It may seem overwhelming because of the amount of schools there are, but a lot of your decision will likely come down to your own personal preferences, as well as your own research. Some key considerations could be tuition fees, and method of course delivery, as well as emphasis on theory.  
 
-One of the benefits of attending a masters degree program is that it gives you access to alumni as well as classmates to leverage for networking opportunities. It is also nice to attend a masters degree program since a lot of job postings give preference to those with a masters degree in Data Science.
-This can be the difference between getting a rejection you landing that role as a data scientist. The will be elaborated on more in depth later on in the blog. A negative about attending a masters degree program may be that the tuition may really high as well as if it's a full-time commitment, that is a loss of income. If your employer is willing to pay for it, it is advised to enroll. Another option is that some schools offer part-time programs which are done almost entirely online. This allows you to continue working at your current job. 
+One of the benefits of attending a masters degree program is that it gives you access to alumni as well as classmates to leverage for networking opportunities. It is also nice to attend a masters degree program since a lot of job postings give preference to those with a masters degree in Data Science as mentioned previously.
+
+A negative about attending a masters degree program may be that the tuition may really high as well as if it's a full-time commitment, that is a loss of income. Here is what a typical lab / lecture schedule at UBC looks like. Do plan to spend a few hours each day after classes to work on assigned labs. 
+
+![UBC MDS Typical Lab and Lecture Schedule](typical_week.png)
+
+ Another option is that some schools offer part-time programs which are done almost entirely online. This allows you to continue working at your current job. 
 
 ### Bootcamps
 
@@ -66,13 +72,13 @@ Again, a lot of the same issues that a masters degree program would encounter ap
 ### Self Learn / On The Job ()
 #### Roadmap
 
-A lot of free resources as well as low cost resources exist. DataCamp is a website that has interactive videos as well as interactive coding and the yearly fee is around $249 USD. Kaggle also exists for learning and practicing data science concepts. 
+A lot of free resources as well as low cost resources exist. DataCamp is a website that has interactive videos as well as interactive coding and the yearly fee is around $249 USD. Kaggle also exists for learning and practicing data science concepts and is free to sign up for. [This roadmap](https://roadmap.sh/ai-data-scientist) is also an excellent place to start. I do recommend that before you enroll in a masters or even a bootcamp, you should go through these free resources on your own, to help gauge whether you are interested in data science, since both of those options are a significant time commitment and investment. 
 
-These resources are good for individuals with limited financial backing who would like to explore the option of transitioning into a data scientist role.
+These resources are good for individuals with limited financial backing who would like to explore the option of tran
 
 #### Pros and Cons
 
-In the current job market, it is a lot more difficult to get hired this way as a lot of postings require a minimum of a masters degree according to [this DataCamp blog](https://www.datacamp.com/blog/how-to-become-a-data-scientist). In terms of networking, it would be a lot more difficult unless you have a solid network, already established at your current position. 
+From personal experience, in the current job market, it is a lot more difficult to get hired this way as a lot of postings require a minimum of a masters degree according to [this DataCamp blog](https://www.datacamp.com/blog/how-to-become-a-data-scientist). In terms of networking, it would be a lot more difficult unless you have a solid network already established at your current position. It can also be difficult to convince employers that you are worth taking a gamble on, so you will likely need to spend a lot of time showcasing personal projects to get hired this way, as well as leverage connections in the industry. 
 
 # Summary Table
 
@@ -82,17 +88,25 @@ In the current job market, it is a lot more difficult to get hired this way as a
 | **Bootcamp**         | Medium-High    | 3-6 months on average        | Medium                 |
 | **Self-learn**       | Low/Free           | Flexible          | Low                    |
 
+Table 1 : Summary table of the three learning paths you can take.
+
 # Final Tips
 
 - It will be a long process, and it can often be discouraging or it may be difficult to stay motivated. If you experience burn out, try to take a break if you can, as well as surround yourself with peers who may be in the same position as you. A lot of social media data science communities are a good place to meet like-minded folks such as [r/datascience](https://www.reddit.com/r/datascience/). 
-- A lot of the advice is very general, if you have a specific role or company in mind, it may be better to focus on what you know they would want.
+- A lot of the advice is very general, if you have a specific role or company in mind, it may be better to focus on what you know they would want. You can find out by looking at job postings as well as connecting with people who work at these companies.
 - Data science is a rapidly changing field, a lot of packages or even new tools may come out from the time you start the process to the day that you landed the job. It is more important to have a good foundation in a lot of the basics such as coding, data structures and algorithms and machine learning versus learning how to use the newest package at all times. You can only go so far with using a new data visualization package if you don't even know the basics behind which chart to use for your specific data. 
+- Sadly, there was only so much I could cover within this blog post. The interview process and making connections is basically a whole monster on its own and I felt like I couldn't do it any justice in this blog post. A good resource that I recommend for those topics is [this book](https://www.amazon.ca/Ace-Data-Science-Interview-Questions/dp/0578973839/ref=sr_1_1?dib=eyJ2IjoiMSJ9.MHG7FrZsxVUx3I6fbbfvwTPK_9tK4N3Jl0HkOyqYyBJrER-gD_A334HTGwjk7g1YdHBVgj1lihPw9vc3u-ZkByxRlZQaZ6fIISt0u805CwKxamUm3SPZ1eohtrDYsx13DAhYx2p2RYt6qzNwpU6mCtOVEmTL6VVtaRslnJjLTOFkYbVp-5XskNaXJ45s4HMtJQUwXmYkw9L-G6zyH4qH4AOdwk2kTGp-8ya5pcGULjqc25IhhjGXClCwDRBuWDi7TiObYigIsD02iY8lPLVjMN7p0rvIQbs4YebzAakN4LFtV9c67jfHXobxRk9kn5CqFN29X9gps4zZt0GQ4ATCk79WTpx9xVilweqyXH5JPmD9sPpO_ZSyBAYFOZ0GocPEPlWoNs4u17WsvH-d6ZIOdXhubAawTOZSLaYAVXSa0-9BOisZP3yFM-dxC1jmpwVz.N4Flls0087o5_U4fZcpJ33MPJPaeeyiCT_wcNa08wbI&dib_tag=se&keywords=data+science+interview&qid=1737143395&sr=8-1). 
 
 ## Conclusion
 
-It can be a difficult and often daunting transition into a more specialized discipline. Following what was laid out here is a good starting point for learning new data science skills.
+It can be a difficult and often daunting transition into a more specialized discipline. Following what was laid out here is a good starting point for learning new data science skills. Here is a summary chart of everything that was covered! 
+
+![Potential Path to Becoming a Data Scientist](summary_path.png)
+
+Good luck on the journey!  
 
 # References
+https://www.coursera.org/articles/what-is-machine-learning-engineer
 https://www.bls.gov/ooh/math/data-scientists.htm
 https://data-storyteller.medium.com/how-to-pick-a-masters-program-for-a-career-in-data-science-def0263107ec
 [[1]] https://grad.ucalgary.ca/future-students/explore-programs/data-science-and-analytics-mdsa-course
@@ -102,3 +116,7 @@ https://data-storyteller.medium.com/how-to-pick-a-masters-program-for-a-career-i
 https://www.datacamp.com/blog/how-to-become-a-data-scientist
 https://www.datacamp.com/blog/data-analyst-vs-data-scientist-a-comparative-guide
 https://www.reddit.com/r/datascience/
+https://www.amazon.ca/Ace-Data-Science-Interview-Questions/dp/0578973839/ref=sr_1_1?dib=eyJ2IjoiMSJ9.MHG7FrZsxVUx3I6fbbfvwTPK_9tK4N3Jl0HkOyqYyBJrER-gD_A334HTGwjk7g1YdHBVgj1lihPw9vc3u-ZkByxRlZQaZ6fIISt0u805CwKxamUm3SPZ1eohtrDYsx13DAhYx2p2RYt6qzNwpU6mCtOVEmTL6VVtaRslnJjLTOFkYbVp-5XskNaXJ45s4HMtJQUwXmYkw9L-G6zyH4qH4AOdwk2kTGp-8ya5pcGULjqc25IhhjGXClCwDRBuWDi7TiObYigIsD02iY8lPLVjMN7p0rvIQbs4YebzAakN4LFtV9c67jfHXobxRk9kn5CqFN29X9gps4zZt0GQ4ATCk79WTpx9xVilweqyXH5JPmD9sPpO_ZSyBAYFOZ0GocPEPlWoNs4u17WsvH-d6ZIOdXhubAawTOZSLaYAVXSa0-9BOisZP3yFM-dxC1jmpwVz.N4Flls0087o5_U4fZcpJ33MPJPaeeyiCT_wcNa08wbI&dib_tag=se&keywords=data+science+interview&qid=1737143395&sr=8-1
+
+[X] N. Name, Title (Year), Source
+[1] A. Pesah, A. Wehenkel and G. Louppe, Recurrent Machines for Likelihood-Free Inference (2018), NeurIPS 2018 Workshop on Meta-Learning
