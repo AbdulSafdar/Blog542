@@ -5,11 +5,16 @@ date: "2025-01-14"
 categories: [career development]
 ---
 # Transitioning from Data Analyst to Data Scientist: Where to Learn Foundational Skills
-## A guide to transition from a data analyst to data scientist and which important skills to pick. And 3 ways to fill in the gaps in your knowledge and how effective each is. 
+### A guide to transition from a data analyst to data scientist and which important skills to pick. And 3 ways to fill in the gaps in your knowledge and how effective each is. 
 
 # Introduction : Why Transition to Data Science? 
 
 Data science is rapidly growing. According to the [U.S. Bureau of Labor Statistics](https://www.bls.gov/ooh/math/data-scientists.htm), employment from 2023 to 2033 is expected to grow by 36% with close to 20000 new jobs projected yearly. The median pay is approximately $108,000 making data science a viable choice. 
+
+![Median pay for high demand tech industry roles](median_pay_chart.png.png)
+
+![Projected job growth from 2023 to 2033 for certain high demand tech roles](projected_job_growth_chart.png.png)
+
 
 As a data analyst, you may be wondering how the role of a data scientist differs from a data analyst and why you should care? The difference according to [this blog](https://www.datacamp.com/blog/data-analyst-vs-data-scientist-a-comparative-guide) is that data science roles are more hands-on in terms of building predictive modeling tools, whereas data analysts are more concerned with generating actionable insights from data. If these reasons are compelling enough for you to consider making the transition, keep reading on! This blog post will outline where you can learn the foundational skills to become a proficient data scientist. 
 
@@ -39,7 +44,7 @@ Classic data structures and algorithms. It is important to learn because it can 
 
 ## Machine Learning
 
-Learning about different types of machine learning models, as well as the concepts behind these models is essential in landing a data scientist job. Websites like Kaggle often have practice data sets to work on and machine learning competitions. A solid understanding in these topics can also open up the door for machine learning engineering positions according to [this](https://www.coursera.org/articles/what-is-machine-learning-engineer) Coursera article. 
+Learning about different types of machine learning models, as well as the concepts behind these models is essential in landing a data scientist job as employing predictive modeling is what a lot of data scientists do    . Websites like Kaggle often have practice data sets to work on and machine learning competitions. A solid understanding in these topics can also open up the door for machine learning engineering positions according to [this](https://www.coursera.org/articles/what-is-machine-learning-engineer) Coursera article. 
 
 ## More Advanced Statistics
 
@@ -98,10 +103,10 @@ Table 1: Summary table of the three learning paths you can take.
 
 # Final Tips
 
-- It will be a long process, and it can often be discouraging or it may be difficult to stay motivated. If you experience burn out, try to take a break if you can, as well as surround yourself with peers who may be in the same position as you.
+- It will be a long process, and it can often be discouraging or it may be difficult to stay motivated. If you experience burn out, try to take a break if you can to focus on your well-being.
 - A lot of social media data science communities are a good place to meet like-minded folks such as [r/datascience](https://www.reddit.com/r/datascience/). 
 - A lot of the advice is very general, if you have a specific role or company in mind, it may be better to focus on what you know they would want. You can find out by looking at job postings as well as connecting with people who work at these companies.
-- Data science is a rapidly changing field, a lot of packages or even new tools may come out from the time you start the process to the day that you landed the job. It is more important to have a good foundation in a lot of the basics such as coding, data structures and algorithms and machine learning versus learning how to use the newest package at all times.
+- Data science is a rapidly changing field, a lot of packages or even new tools may come out from the time you start the learning process to the day that you land a job. It is more important to have a good foundation in a lot of the basics such as coding, data structures and algorithms and machine learning versus learning how to use the newest package at all times.
 - Sadly, there was only so much I could cover within this blog post. The interview process and making connections is basically a whole monster on its own and I felt like I couldn't do it any justice in this blog post. A good resource that I recommend for those topics is [this book](https://www.amazon.ca/Ace-Data-Science-Interview-Questions/dp/0578973839/ref=sr_1_1?dib=eyJ2IjoiMSJ9.MHG7FrZsxVUx3I6fbbfvwTPK_9tK4N3Jl0HkOyqYyBJrER-gD_A334HTGwjk7g1YdHBVgj1lihPw9vc3u-ZkByxRlZQaZ6fIISt0u805CwKxamUm3SPZ1eohtrDYsx13DAhYx2p2RYt6qzNwpU6mCtOVEmTL6VVtaRslnJjLTOFkYbVp-5XskNaXJ45s4HMtJQUwXmYkw9L-G6zyH4qH4AOdwk2kTGp-8ya5pcGULjqc25IhhjGXClCwDRBuWDi7TiObYigIsD02iY8lPLVjMN7p0rvIQbs4YebzAakN4LFtV9c67jfHXobxRk9kn5CqFN29X9gps4zZt0GQ4ATCk79WTpx9xVilweqyXH5JPmD9sPpO_ZSyBAYFOZ0GocPEPlWoNs4u17WsvH-d6ZIOdXhubAawTOZSLaYAVXSa0-9BOisZP3yFM-dxC1jmpwVz.N4Flls0087o5_U4fZcpJ33MPJPaeeyiCT_wcNa08wbI&dib_tag=se&keywords=data+science+interview&qid=1737143395&sr=8-1). 
 
 ## Conclusion
@@ -114,22 +119,28 @@ Good luck on the journey!
 
 # References
 
-[1] U.S. Bureau of Labor Statistics, Data Scientists (2023), https://www.bls.gov/ooh/math/data-scientists.htm
+[1] U.S. Bureau of Labor Statistics, Data Scientists (2023), [https://www.bls.gov/ooh/math/data-scientists.htm](https://www.bls.gov/ooh/math/data-scientists.htm)
 
-[2] DataCamp, Data Analyst vs Data Scientist: A Comparative Guide (2024), https://www.datacamp.com/blog/data-analyst-vs-data-scientist-a-comparative-guide
+[2] U.S. Bureau of Labor Statistics, Software Developers (2023), [https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm)
 
-[3] Maggie @ DataStoryteller, How to Pick a Masters Program for a Career in Data Science (2023), https://data-storyteller.medium.com/how-to-pick-a-masters-program-for-a-career-in-data-science-def0263107ec
+[3] U.S. Bureau of Labor Statistics, Computer Programmers (2023), [https://www.bls.gov/ooh/computer-and-information-technology/computer-programmers.htm](https://www.bls.gov/ooh/computer-and-information-technology/computer-programmers.htm)
 
-[4] Roadmap.sh, AI/Data Scientist Roadmap (2025), https://roadmap.sh/ai-data-scientist
+[4] U.S. Bureau of Labor Statistics, Actuaries (2023), [https://www.bls.gov/ooh/math/actuaries.htm](https://www.bls.gov/ooh/math/actuaries.htm)
 
-[5] GeeksforGeeks, Why Data Structures and Algorithms Are Important to Learn (2024), https://www.geeksforgeeks.org/why-data-structures-and-algorithms-are-important-to-learn/
+[5] DataCamp, Data Analyst vs Data Scientist: A Comparative Guide (2024), [https://www.datacamp.com/blog/data-analyst-vs-data-scientist-a-comparative-guide](https://www.datacamp.com/blog/data-analyst-vs-data-scientist-a-comparative-guide)
 
-[6] FreeCodeCamp, DSA in Python – Full Course (2021), https://www.youtube.com/watch?v=pkYVOmU3MgA&t=2277s&pp=ygUNZHNhIGluIHB5dGhvbg%3D%3D
+[6] Maggie @ DataStoryteller, How to Pick a Masters Program for a Career in Data Science (2023), [https://data-storyteller.medium.com/how-to-pick-a-masters-program-for-a-career-in-data-science-def0263107ec](https://data-storyteller.medium.com/how-to-pick-a-masters-program-for-a-career-in-data-science-def0263107ec)
 
-[7] Coursera, What Is a Machine Learning Engineer? (2024), https://www.coursera.org/articles/what-is-machine-learning-engineer
+[7] Roadmap.sh, AI/Data Scientist Roadmap (2025), [https://roadmap.sh/ai-data-scientist](https://roadmap.sh/ai-data-scientist)
 
-[8] DataCamp, How to Become a Data Scientist (2024), https://www.datacamp.com/blog/how-to-become-a-data-scientist
+[8] GeeksforGeeks, Why Data Structures and Algorithms Are Important to Learn (2024), [https://www.geeksforgeeks.org/why-data-structures-and-algorithms-are-important-to-learn/](https://www.geeksforgeeks.org/why-data-structures-and-algorithms-are-important-to-learn/)
 
-[9] Reddit, r/datascience (n.d.), https://www.reddit.com/r/datascience/
+[9] FreeCodeCamp, DSA in Python – Full Course (2021), [https://www.youtube.com/watch?v=pkYVOmU3MgA&t=2277s&pp=ygUNZHNhIGluIHB5dGhvbg%3D%3D](https://www.youtube.com/watch?v=pkYVOmU3MgA&t=2277s&pp=ygUNZHNhIGluIHB5dGhvbg%3D%3D)
 
-[10] N. Singh and K. Huo, Ace the Data Science Interview: 201 Questions to Help You Land Your Dream Data Science Job (2021), https://www.amazon.ca/Ace-Data-Science-Interview-Questions/dp/0578973839
+[10] Coursera, What Is a Machine Learning Engineer? (2024), [https://www.coursera.org/articles/what-is-machine-learning-engineer](https://www.coursera.org/articles/what-is-machine-learning-engineer)
+
+[11] DataCamp, How to Become a Data Scientist (2024), [https://www.datacamp.com/blog/how-to-become-a-data-scientist](https://www.datacamp.com/blog/how-to-become-a-data-scientist)
+
+[12] Reddit, r/datascience (n.d.), [https://www.reddit.com/r/datascience/](https://www.reddit.com/r/datascience/)
+
+[13] N. Singh and K. Huo, Ace the Data Science Interview: 201 Questions to Help You Land Your Dream Data Science Job (2021), [https://www.amazon.ca/Ace-Data-Science-Interview-Questions/dp/0578973839](https://www.amazon.ca/Ace-Data-Science-Interview-Questions/dp/0578973839)

@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "visualizations.html",
+    "href": "visualizations.html",
+    "title": "How to transition from a data analyst role to data scientist.",
     "section": "",
-    "text": "About this blog"
+    "text": "import altair as alt\nimport pandas as pd\n\n# Data for the chart\ndata = pd.DataFrame({\n    'Profession': ['Computer Programmers', 'Software Developers', 'Actuary', 'Data Scientists'],\n    'Projected Growth (%)': [-10, 17, 22, 36],\n    'Median Pay (USD)': [99700, 130000, 120000, 108000]\n})\n\n# Base font size for the charts\nbase_font_size = 16\n\n# Chart for Projected Growth\ngrowth_chart = alt.Chart(data).mark_bar(color='skyblue').encode(\n    x=alt.X('Projected Growth (%)', title='Projected Job Growth (%)', axis=alt.Axis(labelFontSize=base_font_size, titleFontSize=base_font_size + 2)),\n    y=alt.Y('Profession', sort='-x', title='Profession', axis=alt.Axis(labelFontSize=base_font_size, titleFontSize=base_font_size + 2)),\n    tooltip=['Profession', 'Projected Growth (%)']\n).properties(\n    title=alt.TitleParams(text='Projected Job Growth (2023-2033) by Profession', fontSize=base_font_size + 4),\n    width=600,\n    height=400\n)\n\n# Chart for Median Pay\npay_chart = alt.Chart(data).mark_bar(color='orange').encode(\n    x=alt.X('Median Pay (USD)', title='Median Pay (USD)', axis=alt.Axis(labelFontSize=base_font_size, titleFontSize=base_font_size + 2)),\n    y=alt.Y('Profession', sort='-x', title='Profession', axis=alt.Axis(labelFontSize=base_font_size, titleFontSize=base_font_size + 2)),\n    tooltip=['Profession', 'Median Pay (USD)']\n).properties(\n    title=alt.TitleParams(text='Median Pay by Profession (2023-2033)', fontSize=base_font_size + 4),\n    width=600,\n    height=400\n)\n\n# Save the charts as PNG\ngrowth_chart.save('posts/welcome/projected_job_growth_chart.png', format='png')\npay_chart.save('posts/welcome/median_pay_chart.png', format='png')\n\n# Display the charts\ngrowth_chart & pay_chart"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "How to transition from a data analyst role to data scientist.",
+    "section": "",
+    "text": "Transitioning from Data Analyst to Data Scientist: Where to Learn Foundational Skills\n\n\n\n\n\n\ncareer development\n\n\n\n\n\n\n\n\n\nJan 14, 2025\n\n\nAbdul Safdar\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html#data-structures-and-algorithms",
@@ -18,7 +25,7 @@
     "href": "posts/welcome/index.html#machine-learning",
     "title": "Transitioning from Data Analyst to Data Scientist: Where to Learn Foundational Skills",
     "section": "Machine Learning",
-    "text": "Machine Learning\nLearning about different types of machine learning models, as well as the concepts behind these models is essential in landing a data scientist job. Websites like Kaggle often have practice data sets to work on and machine learning competitions. A solid understanding in these topics can also open up the door for machine learning engineering positions according to this Coursera article."
+    "text": "Machine Learning\nLearning about different types of machine learning models, as well as the concepts behind these models is essential in landing a data scientist job as employing predictive modeling is what a lot of data scientists do . Websites like Kaggle often have practice data sets to work on and machine learning competitions. A solid understanding in these topics can also open up the door for machine learning engineering positions according to this Coursera article."
   },
   {
     "objectID": "posts/welcome/index.html#more-advanced-statistics",
@@ -42,10 +49,10 @@
     "text": "Conclusion\nIt can be a difficult and often daunting transition into a more specialized discipline. Following what was laid out here is a good starting point for learning new data science skills. Here is a summary chart of everything that was covered in this blog post!\n\n\n\nPotential Path to Becoming a Data Scientist\n\n\nGood luck on the journey!"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "How to transition from a data analyst role to data scientist.",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Transitioning from Data Analyst to Data Scientist: Where to Learn Foundational Skills\n\n\n\n\n\n\ncareer development\n\n\n\n\n\n\n\n\n\nJan 14, 2025\n\n\nAbdul Safdar\n\n\n\n\n\n\nNo matching items"
+    "text": "About this blog"
   }
 ]
