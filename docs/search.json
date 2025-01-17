@@ -9,44 +9,37 @@
   {
     "objectID": "posts/welcome/index.html#data-structures-and-algorithms",
     "href": "posts/welcome/index.html#data-structures-and-algorithms",
-    "title": "Transitioning into a data scientist role as a data analyst and where to pick up new skills",
+    "title": "Transitioning from Data Analyst to Data Scientist: Where to Learn Foundational Skills",
     "section": "Data Structures and Algorithms",
-    "text": "Data Structures and Algorithms\nClassic data structures and algorithms. It is highly important to learn because it can be applied to your future job because learning data structures and algorithm could be the difference between your code taking one minute to run versus it taking thirty minutes to run according to this blog. This video is an excellent place to learn the basics and you can apply what you learnt using LeetCode.\n\nhttps://www.youtube.com/embed/pkYVOmU3MgA?start=2277"
+    "text": "Data Structures and Algorithms\nClassic data structures and algorithms. It is important to learn because it can be applied to your future job because learning data structures and algorithms could be the difference between your code taking one minute to run versus it taking thirty minutes to run according to this blog. This video is an excellent place to learn the basics and you can practice on LeetCode."
   },
   {
-    "objectID": "posts/welcome/index.html#ml",
-    "href": "posts/welcome/index.html#ml",
-    "title": "Transitioning into a data scientist role as a data analyst and where to pick up new skills",
-    "section": "ML",
-    "text": "ML\nLearning about different types of machine learning models, as well as the concepts behind these models is essential in landing a data scientist job. Websites like Kaggle often have practice data sets to work on as well as machine learning competitions. A solid understanding in these topics can also open up the door for machine learning engineering positions according to this Coursera article."
+    "objectID": "posts/welcome/index.html#machine-learning",
+    "href": "posts/welcome/index.html#machine-learning",
+    "title": "Transitioning from Data Analyst to Data Scientist: Where to Learn Foundational Skills",
+    "section": "Machine Learning",
+    "text": "Machine Learning\nLearning about different types of machine learning models, as well as the concepts behind these models is essential in landing a data scientist job. Websites like Kaggle often have practice data sets to work on and machine learning competitions. A solid understanding in these topics can also open up the door for machine learning engineering positions according to this Coursera article."
   },
   {
     "objectID": "posts/welcome/index.html#more-advanced-statistics",
     "href": "posts/welcome/index.html#more-advanced-statistics",
-    "title": "Transitioning into a data scientist role as a data analyst and where to pick up new skills",
+    "title": "Transitioning from Data Analyst to Data Scientist: Where to Learn Foundational Skills",
     "section": "More Advanced Statistics",
-    "text": "More Advanced Statistics\nProbability and statistics is an essential part of a data scientists toolbox."
+    "text": "More Advanced Statistics\nProbability and statistics are foundational to a data scientist’s toolkit. As a data scientist, you frequently conduct A/B testing and apply statistical models to interpret and fit data, and a solid understanding of the theory behind these methods will help you assess the reliability and validity of your results."
   },
   {
     "objectID": "posts/welcome/index.html#data-visualization-in-python",
     "href": "posts/welcome/index.html#data-visualization-in-python",
-    "title": "Transitioning into a data scientist role as a data analyst and where to pick up new skills",
+    "title": "Transitioning from Data Analyst to Data Scientist: Where to Learn Foundational Skills",
     "section": "Data Visualization in Python",
-    "text": "Data Visualization in Python\nSince you likely already have experience in using power BI or Tableau, it is worth learning a new data visualization library for Python. Some of the common libraries in Python include Altair, Seaborn and Plotly. The one you start to practice on does not really matter because a lot of the syntax for different libraries can be easily learnt once you have the basics down."
-  },
-  {
-    "objectID": "posts/welcome/index.html#where-to-pick-up-data-science-skills",
-    "href": "posts/welcome/index.html#where-to-pick-up-data-science-skills",
-    "title": "Transitioning into a data scientist role as a data analyst and where to pick up new skills",
-    "section": "Where to Pick Up Data Science Skills",
-    "text": "Where to Pick Up Data Science Skills\nThe amount of new skills that you may need to pick up may seem overwhelming right now! With a lot of discipline and hard work, it is not too difficult to learn a lot of these skills. I will break it up into three different ways that you can pick up these required skills as well as go through the pros and cons for each one. A lot of what I talk about in this section comes from my own personal experience since I have followed some of these paths before.\n\nMaster’s Program\nA masters in data science degree program may be one of the best ways to pick up a lot of skills needed to transition into the industry. There are a wide variety of universities/colleges which offer masters in data science degrees and each one has a unique program structure. It may seem overwhelming because of the amount of schools there are, but a lot of your decision will likely come down to your own personal preferences, as well as your own research. Some key considerations could be tuition fees, and method of course delivery, as well as emphasis on theory.\nOne of the benefits of attending a masters degree program is that it gives you access to alumni as well as classmates to leverage for networking opportunities. It is also nice to attend a masters degree program since a lot of job postings give preference to those with a masters degree in Data Science as mentioned previously.\nA negative about attending a masters degree program may be that the tuition may really high as well as if it’s a full-time commitment, that is a loss of income. Here is what a typical lab / lecture schedule at UBC looks like. Do plan to spend a few hours each day after classes to work on assigned labs.\n\n\n\nUBC MDS Typical Lab and Lecture Schedule\n\n\nAnother option is that some schools offer part-time programs which are done almost entirely online. This allows you to continue working at your current job.\n\n\nBootcamps\nA Boot Camp is also a good way to pick up data science skills as these are fast paced and often challenging experiences. Bootcamps allow you to pick up the necessary skills to be job ready in the field that you are interested in. A lot of them are full-time commitments as well, and can be completed in as little as three months.\nAgain, a lot of the same issues that a masters degree program would encounter apply here as well. A lot of these programs are expensive and they require a significant time commitment. Another issue that these programs have when compared to a masters degree is that they may not go into a lot of theory and they may be more focussed on the coding aspects. This may be something to consider depending on your own learning style and preferences.\n\n\nSelf Learn / On The Job ()\n\nRoadmap\nA lot of free resources as well as low cost resources exist. DataCamp is a website that has interactive videos as well as interactive coding and the yearly fee is around $249 USD. Kaggle also exists for learning and practicing data science concepts and is free to sign up for. This roadmap is also an excellent place to start. I do recommend that before you enroll in a masters or even a bootcamp, you should go through these free resources on your own, to help gauge whether you are interested in data science, since both of those options are a significant time commitment and investment.\nThese resources are good for individuals with limited financial backing who would like to explore the option of tran\n\n\nPros and Cons\nFrom personal experience, in the current job market, it is a lot more difficult to get hired this way as a lot of postings require a minimum of a masters degree according to this DataCamp blog. In terms of networking, it would be a lot more difficult unless you have a solid network already established at your current position. It can also be difficult to convince employers that you are worth taking a gamble on, so you will likely need to spend a lot of time showcasing personal projects to get hired this way, as well as leverage connections in the industry."
+    "text": "Data Visualization in Python\nSince you likely already have experience using Power BI or Tableau, it is worth learning a new data visualization library for Python. Some of the common libraries in Python include Altair, Seaborn and Plotly. The one you practice on does not really matter because a lot of the syntax for different libraries can be easily learned once you have the basics down."
   },
   {
     "objectID": "posts/welcome/index.html#conclusion",
     "href": "posts/welcome/index.html#conclusion",
-    "title": "Transitioning into a data scientist role as a data analyst and where to pick up new skills",
+    "title": "Transitioning from Data Analyst to Data Scientist: Where to Learn Foundational Skills",
     "section": "Conclusion",
-    "text": "Conclusion\nIt can be a difficult and often daunting transition into a more specialized discipline. Following what was laid out here is a good starting point for learning new data science skills. Here is a summary chart of everything that was covered!\n\n\n\nPotential Path to Becoming a Data Scientist\n\n\nGood luck on the journey!"
+    "text": "Conclusion\nIt can be a difficult and often daunting transition into a more specialized discipline. Following what was laid out here is a good starting point for learning new data science skills. Here is a summary chart of everything that was covered in this blog post!\n\n\n\nPotential Path to Becoming a Data Scientist\n\n\nGood luck on the journey!"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -60,6 +53,6 @@
     "href": "index.html",
     "title": "How to transition from a data analyst role to data scientist.",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 14, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nTransitioning into a data scientist role as a data analyst and where to pick up new skills\n\n\n\n\n\n\njobs\n\n\n\n\n\n\n\n\n\nJan 14, 2025\n\n\nAbdul Safdar\n\n\n\n\n\n\nNo matching items"
+    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 14, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nTransitioning from Data Analyst to Data Scientist: Where to Learn Foundational Skills\n\n\n\n\n\n\ncareer development\n\n\n\n\n\n\n\n\n\nJan 14, 2025\n\n\nAbdul Safdar\n\n\n\n\n\n\nNo matching items"
   }
 ]
