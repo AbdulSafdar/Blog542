@@ -157,7 +157,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<div id="9cbd0f6b-6232-4ae6-9596-d23607abacba" class="cell" data-execution_count="6">
+<div id="9cbd0f6b-6232-4ae6-9596-d23607abacba" class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> altair <span class="im">as</span> alt</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -199,26 +199,54 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="co"># Display the charts</span></span>
 <span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>growth_chart <span class="op">&amp;</span> pay_chart</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="6">
+</div>
+<div id="b66ea8ef-af20-4003-906e-4d8c67d5ec6e" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> altair <span class="im">as</span> alt</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a random dataset for a scatter plot</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> pd.DataFrame({</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">'X Values'</span>: np.random.rand(<span class="dv">50</span>) <span class="op">*</span> <span class="dv">100</span>,</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">'Y Values'</span>: np.random.rand(<span class="dv">50</span>) <span class="op">*</span> <span class="dv">100</span>,</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">'Category'</span>: np.random.choice([<span class="st">'A'</span>, <span class="st">'B'</span>, <span class="st">'C'</span>], size<span class="op">=</span><span class="dv">50</span>)</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a scatter plot</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>chart <span class="op">=</span> alt.Chart(data).mark_circle(size<span class="op">=</span><span class="dv">200</span>, opacity<span class="op">=</span><span class="fl">0.8</span>).encode(</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    x<span class="op">=</span>alt.X(<span class="st">'X Values:Q'</span>, title<span class="op">=</span><span class="st">'X Axis'</span>, scale<span class="op">=</span>alt.Scale(zero<span class="op">=</span><span class="va">False</span>)),</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    y<span class="op">=</span>alt.Y(<span class="st">'Y Values:Q'</span>, title<span class="op">=</span><span class="st">'Y Axis'</span>, scale<span class="op">=</span>alt.Scale(zero<span class="op">=</span><span class="va">False</span>)),</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>    color<span class="op">=</span>alt.Color(<span class="st">'Category:N'</span>, title<span class="op">=</span><span class="st">'Category'</span>, scale<span class="op">=</span>alt.Scale(scheme<span class="op">=</span><span class="st">'viridis'</span>)),</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>    size<span class="op">=</span>alt.Size(<span class="st">'Y Values:Q'</span>, title<span class="op">=</span><span class="st">'Size by Y Value'</span>),</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    tooltip<span class="op">=</span>[<span class="st">'X Values'</span>, <span class="st">'Y Values'</span>, <span class="st">'Category'</span>]</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>).properties(</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>    title<span class="op">=</span>alt.TitleParams(text<span class="op">=</span><span class="st">'A Cool Altair Scatter Plot!'</span>, fontSize<span class="op">=</span><span class="dv">20</span>),</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>    width<span class="op">=</span><span class="dv">600</span>,</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>    height<span class="op">=</span><span class="dv">400</span></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Display the chart</span></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>chart</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="1">
 
 <style>
-  #altair-viz-08cee3b74997459493f9e85edeb7514b.vega-embed {
+  #altair-viz-45ab4a385ce14af18ccff19b25911d0f.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-08cee3b74997459493f9e85edeb7514b.vega-embed details,
-  #altair-viz-08cee3b74997459493f9e85edeb7514b.vega-embed details summary {
+  #altair-viz-45ab4a385ce14af18ccff19b25911d0f.vega-embed details,
+  #altair-viz-45ab4a385ce14af18ccff19b25911d0f.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-08cee3b74997459493f9e85edeb7514b"></div>
+<div id="altair-viz-45ab4a385ce14af18ccff19b25911d0f"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-08cee3b74997459493f9e85edeb7514b") {
-      outputDiv = document.getElementById("altair-viz-08cee3b74997459493f9e85edeb7514b");
+    if (outputDiv.id !== "altair-viz-45ab4a385ce14af18ccff19b25911d0f") {
+      outputDiv = document.getElementById("altair-viz-45ab4a385ce14af18ccff19b25911d0f");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
@@ -264,7 +292,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "vconcat": [{"mark": {"type": "bar", "color": "skyblue"}, "encoding": {"tooltip": [{"field": "Profession", "type": "nominal"}, {"field": "Projected Growth (%)", "type": "quantitative"}], "x": {"axis": {"labelFontSize": 16, "titleFontSize": 18}, "field": "Projected Growth (%)", "title": "Projected Job Growth (%)", "type": "quantitative"}, "y": {"axis": {"labelFontSize": 16, "titleFontSize": 18}, "field": "Profession", "sort": "-x", "title": "Profession", "type": "nominal"}}, "height": 400, "title": {"text": "Projected Job Growth (2023-2033) by Profession", "fontSize": 20}, "width": 600}, {"mark": {"type": "bar", "color": "orange"}, "encoding": {"tooltip": [{"field": "Profession", "type": "nominal"}, {"field": "Median Pay (USD)", "type": "quantitative"}], "x": {"axis": {"labelFontSize": 16, "titleFontSize": 18}, "field": "Median Pay (USD)", "title": "Median Pay (USD)", "type": "quantitative"}, "y": {"axis": {"labelFontSize": 16, "titleFontSize": 18}, "field": "Profession", "sort": "-x", "title": "Profession", "type": "nominal"}}, "height": 400, "title": {"text": "Median Pay by Profession (2023-2033)", "fontSize": 20}, "width": 600}], "data": {"name": "data-5aec667f6d8097e7a67eb724a05fe5cc"}, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-5aec667f6d8097e7a67eb724a05fe5cc": [{"Profession": "Computer Programmers", "Projected Growth (%)": -10, "Median Pay (USD)": 99700}, {"Profession": "Software Developers", "Projected Growth (%)": 17, "Median Pay (USD)": 130000}, {"Profession": "Actuary", "Projected Growth (%)": 22, "Median Pay (USD)": 120000}, {"Profession": "Data Scientists", "Projected Growth (%)": 36, "Median Pay (USD)": 108000}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-1a158bb95caa7c4fa86700237d8ea18e"}, "mark": {"type": "circle", "opacity": 0.8, "size": 200}, "encoding": {"color": {"field": "Category", "scale": {"scheme": "viridis"}, "title": "Category", "type": "nominal"}, "size": {"field": "Y Values", "title": "Size by Y Value", "type": "quantitative"}, "tooltip": [{"field": "X Values", "type": "quantitative"}, {"field": "Y Values", "type": "quantitative"}, {"field": "Category", "type": "nominal"}], "x": {"field": "X Values", "scale": {"zero": false}, "title": "X Axis", "type": "quantitative"}, "y": {"field": "Y Values", "scale": {"zero": false}, "title": "Y Axis", "type": "quantitative"}}, "height": 400, "title": {"text": "A Cool Altair Scatter Plot!", "fontSize": 20}, "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-1a158bb95caa7c4fa86700237d8ea18e": [{"X Values": 30.359742579255467, "Y Values": 25.039402483206096, "Category": "C"}, {"X Values": 20.99642399165206, "Y Values": 0.3969395139434728, "Category": "C"}, {"X Values": 42.35643821712573, "Y Values": 27.871565639370367, "Category": "B"}, {"X Values": 91.8933451872507, "Y Values": 4.377931426450809, "Category": "A"}, {"X Values": 74.77363128574156, "Y Values": 52.60360622974406, "Category": "C"}, {"X Values": 60.559438809485165, "Y Values": 0.6217397107379341, "Category": "A"}, {"X Values": 89.68560961811573, "Y Values": 24.455713443257064, "Category": "B"}, {"X Values": 33.819898773351454, "Y Values": 80.91622128729638, "Category": "C"}, {"X Values": 78.37185884173729, "Y Values": 32.53141783235003, "Category": "A"}, {"X Values": 22.8908837568324, "Y Values": 19.325192374985644, "Category": "C"}, {"X Values": 93.4625279868602, "Y Values": 38.04437232040498, "Category": "C"}, {"X Values": 54.376353869221774, "Y Values": 82.30100192353119, "Category": "C"}, {"X Values": 20.339364937064484, "Y Values": 1.8670672829921298, "Category": "A"}, {"X Values": 12.44051346380588, "Y Values": 44.435312885157195, "Category": "A"}, {"X Values": 32.30389099135791, "Y Values": 84.334789988003, "Category": "B"}, {"X Values": 74.76087851269305, "Y Values": 60.478480017407485, "Category": "A"}, {"X Values": 90.91772574219263, "Y Values": 6.475904863428717, "Category": "C"}, {"X Values": 7.59768731936219, "Y Values": 27.19357026324818, "Category": "C"}, {"X Values": 34.69553116027574, "Y Values": 43.56146764310734, "Category": "C"}, {"X Values": 24.479643017491636, "Y Values": 21.709399261492766, "Category": "C"}, {"X Values": 26.63452335572385, "Y Values": 55.66288821406693, "Category": "C"}, {"X Values": 60.17342835608508, "Y Values": 68.41510303486123, "Category": "B"}, {"X Values": 1.7374780542875334, "Y Values": 26.578011188404183, "Category": "A"}, {"X Values": 9.940762528948909, "Y Values": 50.753454475119874, "Category": "B"}, {"X Values": 63.206619513728654, "Y Values": 6.995920243629872, "Category": "B"}, {"X Values": 43.49142874122808, "Y Values": 68.98880853673538, "Category": "B"}, {"X Values": 91.18207297583115, "Y Values": 46.2719346726578, "Category": "C"}, {"X Values": 61.652716008027184, "Y Values": 92.77980746378081, "Category": "B"}, {"X Values": 32.11124451624331, "Y Values": 17.665278367936132, "Category": "C"}, {"X Values": 66.86552376528324, "Y Values": 3.45617763719982, "Category": "B"}, {"X Values": 84.87255421263426, "Y Values": 1.3608867927028645, "Category": "C"}, {"X Values": 71.09535913419674, "Y Values": 68.50169559393505, "Category": "C"}, {"X Values": 33.827496568934265, "Y Values": 17.897257069650642, "Category": "C"}, {"X Values": 58.17553976619705, "Y Values": 90.67825917973602, "Category": "C"}, {"X Values": 43.95217850017402, "Y Values": 22.638770024205623, "Category": "B"}, {"X Values": 98.45519940086139, "Y Values": 48.67434121873002, "Category": "C"}, {"X Values": 61.8997765050215, "Y Values": 87.74815223688178, "Category": "A"}, {"X Values": 72.73334223979484, "Y Values": 39.41923130464292, "Category": "B"}, {"X Values": 26.52431429115458, "Y Values": 14.026031770830583, "Category": "A"}, {"X Values": 95.99773007355738, "Y Values": 69.00684646561346, "Category": "C"}, {"X Values": 35.28465026073606, "Y Values": 85.97215979400654, "Category": "A"}, {"X Values": 61.49183077803186, "Y Values": 82.08050710208907, "Category": "C"}, {"X Values": 77.94616892206834, "Y Values": 28.203598725170764, "Category": "C"}, {"X Values": 36.39625362301875, "Y Values": 84.45174681341778, "Category": "C"}, {"X Values": 15.871197575870688, "Y Values": 83.2885215461769, "Category": "C"}, {"X Values": 14.039425382061532, "Y Values": 34.39923335109233, "Category": "C"}, {"X Values": 40.39322586470489, "Y Values": 26.59662677857061, "Category": "A"}, {"X Values": 39.55962439625631, "Y Values": 21.974012007962042, "Category": "A"}, {"X Values": 19.69438859620337, "Y Values": 31.663044758273017, "Category": "B"}, {"X Values": 81.75322180581001, "Y Values": 37.11689784963404, "Category": "A"}]}}, {"mode": "vega-lite"});
 </script>
 </div>
 </div>

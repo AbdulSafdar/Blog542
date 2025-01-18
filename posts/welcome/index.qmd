@@ -11,9 +11,9 @@ categories: [career development]
 
 Data science is rapidly growing. According to the [U.S. Bureau of Labor Statistics](https://www.bls.gov/ooh/math/data-scientists.htm), employment from 2023 to 2033 is expected to grow by 36% with close to 20000 new jobs projected yearly. The median pay is approximately $108,000 making data science a viable choice. 
 
-![Median pay for high demand tech industry roles](median_pay_chart.png)
+![Median pay for high demand tech industry roles.](median_pay_chart.png)
 
-![Projected job growth from 2023 to 2033 for certain high demand tech roles](projected_job_growth_chart.png)
+![Projected job growth from 2023 to 2033 for certain high demand tech roles.](projected_job_growth_chart.png)
 
 
 As a data analyst, you may be wondering how the role of a data scientist differs from a data analyst and why you should care? The difference according to [this blog](https://www.datacamp.com/blog/data-analyst-vs-data-scientist-a-comparative-guide) is that data science roles are more hands-on in terms of building predictive modeling tools, whereas data analysts are more concerned with generating actionable insights from data. If these reasons are compelling enough for you to consider making the transition, keep reading on! This blog post will outline where you can learn the foundational skills to become a proficient data scientist. 
@@ -52,7 +52,9 @@ Probability and statistics are foundational to a data scientist's toolkit. As a 
 
 ## Data Visualization in Python
 
-Since you likely already have experience using Power BI or Tableau, it is worth learning a new data visualization library for Python. Some of the common libraries in Python include Altair, Seaborn and Plotly. The one you practice on does not really matter because a lot of the syntax for different libraries can be easily learned once you have the basics down. 
+Since you likely already have experience using Power BI or Tableau, it is worth learning a new data visualization library for Python. Some of the common libraries in Python include Altair, Seaborn and Plotly. The one you practice on does not really matter because a lot of the syntax for different libraries can be easily learned once you have the basics down. The following scatterplot was created in Altair, just to show you an example of what can be done, if the code does not make sense right now that is ok. 
+
+![A cool data visualization of a scatter plot that I can create in Altair.](altair_demo.gif)
 
 # How to Fill in Knowledge Gaps: Three Different Methods
 
