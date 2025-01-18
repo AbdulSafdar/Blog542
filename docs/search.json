@@ -39,7 +39,7 @@
     "href": "posts/welcome/index.html#data-visualization-in-python",
     "title": "Transitioning from Data Analyst to Data Scientist: Where to Learn Foundational Skills",
     "section": "Data Visualization in Python",
-    "text": "Data Visualization in Python\nSince you likely already have experience using Power BI or Tableau, it is worth learning a new data visualization library for Python. Some of the common libraries in Python include Altair, Seaborn and Plotly. The one you practice on does not really matter because a lot of the syntax for different libraries can be easily learned once you have the basics down. The following scatterplot was created in Altair, just to show you an example of what can be done, if the code does not make sense right now that is ok.\n\n\n\nA cool data visualization of a scatter plot that I can create in Altair."
+    "text": "Data Visualization in Python\nSince you likely already have experience using Power BI or Tableau, it is worth learning a new data visualization library for Python. Some of the common libraries in Python include Altair, Seaborn and Plotly. The one you practice on does not really matter because a lot of the syntax for different libraries can be easily learned once you have the basics down. The following scatterplot was created in Altair, just to show you an example of what can be done, if the code does not make sense right now that is fine.\n\n\n\nA cool data visualization of a scatter plot that I can create in Altair."
   },
   {
     "objectID": "posts/welcome/index.html#conclusion",

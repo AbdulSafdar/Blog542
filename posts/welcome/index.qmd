@@ -52,7 +52,7 @@ Probability and statistics are foundational to a data scientist's toolkit. As a 
 
 ## Data Visualization in Python
 
-Since you likely already have experience using Power BI or Tableau, it is worth learning a new data visualization library for Python. Some of the common libraries in Python include Altair, Seaborn and Plotly. The one you practice on does not really matter because a lot of the syntax for different libraries can be easily learned once you have the basics down. The following scatterplot was created in Altair, just to show you an example of what can be done, if the code does not make sense right now that is ok. 
+Since you likely already have experience using Power BI or Tableau, it is worth learning a new data visualization library for Python. Some of the common libraries in Python include Altair, Seaborn and Plotly. The one you practice on does not really matter because a lot of the syntax for different libraries can be easily learned once you have the basics down. The following scatterplot was created in Altair, just to show you an example of what can be done, if the code does not make sense right now that is fine. 
 
 ![A cool data visualization of a scatter plot that I can create in Altair.](altair_demo.gif)
 
